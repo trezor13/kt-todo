@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTodoItems"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/btnAddTodo"
@@ -30,7 +31,7 @@
         app:layout_constraintStart_toEndOf="@+id/etTodoTitle" />
 
     <Button
-        android:id="@+id/btnDonTodo"
+        android:id="@+id/btnDeleteDoneTodos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delete done"
