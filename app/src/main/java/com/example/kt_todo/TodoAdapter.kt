@@ -21,7 +21,10 @@ class TodoAdapter(
     }
 
     override fun onBindViewHolder(holder: TodoViewHolder, position: Int) {
-        
+        val curTodo = todos[position]
+        holder.itemView.apply {
+            tvTodoTitle
+        }
 
     }
 
